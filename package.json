@@ -1,6 +1,6 @@
 {
   "name": "@ansevenlet/change-theme-color",
-  "version": "1.0.6",
+  "version": "1.0.1",
   "description": "javascript libs",
   "main": "dist/index.js",
   "scripts": {
@@ -14,11 +14,9 @@
   ],
   "author": "ansevenlet",
   "license": "ISC",
-  {
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:zhangjiahao93/back-calculation.git"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhangjiahao93/back-calculation.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
