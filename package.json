@@ -1,0 +1,43 @@
+{
+  "name": "@ansevenlet/change-theme-color",
+  "version": "1.0.6",
+  "description": "javascript libs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "docs": "./node_modules/.bin/jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "js",
+    "lib"
+  ],
+  "author": "ansevenlet",
+  "license": "ISC",
+  {
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:zhangjiahao93/back-calculation.git"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "docdash": "^1.1.1",
+    "element-ui": "^2.13.2"
+  },
+  "peerDependencies": {
+    "element-ui": ">= 2.13.2"
+  }
+}
