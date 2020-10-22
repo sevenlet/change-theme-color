@@ -3,13 +3,13 @@
 
 ## [手把手教你发布npm函数库](http://km.alanwen.online/guide/javascript/npm.html)
 ## Project setup
-```
-npm install
+```sh
+$ npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run build
+```sh
+$ npm run build
 ```
 
 ### npm publish
@@ -97,7 +97,7 @@ background: var(--theme-color);
 ```javascript
 document.body.style.setProperty('--theme-color', '#ddd' || '');
 ```
-*示例*
+* 示例 *
 
 ```html
 <section class="theme-color">
