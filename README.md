@@ -75,30 +75,28 @@ updateThemeColor(targetColor, newColor, ORIGINAL_THEME);
 
 >  组件中要有背景色和文字颜色的设置，或者其他设置只要需要变化颜色的属性都需要添加
 
-**创建变量文件 .scss文件 **
-
+**创建变量文件 .scss文件**
 定义颜色变量
 
 *variable.scss*
-
 ```css
 :root{
   --font-size: 16px; // 定义基础字号
   --theme-color: #3398ff; // 主题色
 }
 ```
-**设置颜色使用变量**
 
+**设置颜色使用变量**
 ```css
 background: var(--theme-color);
 ```
-**控制颜色 修改色值**
 
+**控制颜色 修改色值**
 ```javascript
 document.body.style.setProperty('--theme-color', '#ddd' || '');
 ```
-* 示例 *
 
+* 示例 *
 ```html
 <section class="theme-color">
   <!-- …… -->
